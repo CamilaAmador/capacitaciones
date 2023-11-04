@@ -1,0 +1,53 @@
+.holder {
+    display: flex;
+    justify-content: center;
+    background-color: #cdb4db; 
+    padding: 20px;
+    
+
+}
+h1 , h2{
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+footer{
+    background-color: gainsboro;
+}
+.holder .contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 5%;
+}
+.lista{
+    color: white;
+}
+.anuncio{
+    white-space: nowrap;
+    position: relative;  
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}
+#mensaje{
+    color: rgb(185, 35, 147);
+   
+    width: 180px;
+    font-size: 18px;
+    padding: 10px;
+    animation: desplazamiento 25s linear infinite;
+   
+}
+@keyframes desplazamiento{
+    0%{
+       
+        transform: translateX(100%);
+    }
+    100%{
+        
+        transform: translateX(-100%);
+    }
+
+}
